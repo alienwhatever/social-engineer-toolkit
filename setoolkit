@@ -6,6 +6,8 @@ import shutil
 import subprocess
 import sys
 
+# I am swam htet aung I fix src/webattack/harvester.py and this file 
+# I fix attribute error and I make setoolkit useable for termux user
 # Py2/3 compatibility
 # Python3 renamed raw_input to input
 try:
@@ -26,9 +28,8 @@ if operating_system == "posix":
     #
 
     if os.geteuid() != 0:
-        print("\n The Social-Engineer Toolkit (SET) - by David Kennedy (ReL1K)")
-        print("\n Not running as root. \n\nExiting the Social-Engineer Toolkit (SET).\n")
-        core.exit_set()
+        print("If you are not using Termux run as root user")
+        print("**********\n")
 
 # if we are running in the path no need to change
 if os.path.isfile("setoolkit"):
