@@ -8,6 +8,8 @@ import sys
 
 # I am swam htet aung I fix src/webattack/harvester.py and this file 
 # I fix attribute error and I make setoolkit useable for termux user
+#---------------------------------------------------------------------
+
 # Py2/3 compatibility
 # Python3 renamed raw_input to input
 try:
