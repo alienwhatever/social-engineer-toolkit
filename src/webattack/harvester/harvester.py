@@ -456,7 +456,7 @@ class SETHandler(BaseHTTPRequestHandler):
         self.send_header('Location', RAW_URL)
         self.end_headers()
         html2 = ('<!doctype html><html><head><meta http-equiv="refresh" content="0; url=%s"><title>Loading...</title></head><body></body></html>' % (RAW_URL)).encode('utf-8')
-        self.wfile.write(htm2)  # html => html2
+        self.wfile.write(html2)  # html => html2
 
         # set it back to our homepage
         os.chdir(userconfigpath + "web_clone/")
