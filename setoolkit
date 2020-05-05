@@ -9,7 +9,7 @@ import sys
 # Py2/3 compatibility
 # Python3 renamed raw_input to input
 
-# make setoolkit useable for both Termux(android) and Linux(pc)
+# make setoolkit usable for both Termux(android) and Linux(pc)
 
 try:
     try:
